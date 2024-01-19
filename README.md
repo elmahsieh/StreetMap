@@ -25,5 +25,7 @@ The StreetMap class is a command-line utility for working with geographical maps
 
 ## Command Lines
 Make sure the file is in the correct directory before executing the following commands. 
+
 javac *.java
+
 java StreetMap map.txt [--show] [--directions startIntersection endIntersection]
