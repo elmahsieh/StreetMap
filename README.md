@@ -16,6 +16,7 @@
   The StreetMap class is a command-line utility for working with geographical maps. It reads input parameters to determine whether to display the map, provide directions between two intersections, or both. The program loads map data from a specified file, creates a graph representation using the Graph class, and utilizes Dijkstra's algorithm to find the shortest path between specified intersections. The MapDrawer class is then employed to visualize the map and, if requested, display the shortest path. 
 
 ## Project Image
+Image of street map of New York State:
 <img width="592" alt="Screenshot 2024-05-16 at 2 58 22 PM" src="https://github.com/elmahsieh/StreetMap/assets/141378765/94108327-b6ba-40dd-892d-1d1352edf0cc">
 
 ## Command Lines
