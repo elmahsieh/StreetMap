@@ -1,16 +1,4 @@
 # StreetMap
-## Internet Resources
-Dikstra’s Algorithm - Geeks for Geeks 
-
-Source: 
-
-https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
-
-Haversine Formula - Geeks for Geeks 
-
-Source:
-
-https://www.geeksforgeeks.org/haversine-formula-to-find-distance-between-two-points-on-a-sphere/
 
 ## Project Synopsis
   The project employs graph theory concepts, utilizing classes such as Edge, Node, and Graph to represent connections between intersections and find the shortest paths. The MapDrawer class provides a Swing-based graphical user interface for visually representing maps, incorporating a rotated coordinate system and Haversine formula-based projections for accurate geographical rendering. The StreetMap class acts as the main entry point for the command-line application, allowing users to display maps, find directions between intersections using Dijkstra's algorithm, and visualize paths on the map. The application's functionality includes map visualization, pathfinding, and interactive navigation. Users can display the entire map or request directions between specific intersections, with the application outputting the shortest path and total distance. Overall, this project provides a comprehensive tool for navigating and understanding maps through an intuitive graphical interface and efficient pathfinding algorithms.
@@ -27,9 +15,25 @@ https://www.geeksforgeeks.org/haversine-formula-to-find-distance-between-two-poi
 ### StreetMap.java
   The StreetMap class is a command-line utility for working with geographical maps. It reads input parameters to determine whether to display the map, provide directions between two intersections, or both. The program loads map data from a specified file, creates a graph representation using the Graph class, and utilizes Dijkstra's algorithm to find the shortest path between specified intersections. The MapDrawer class is then employed to visualize the map and, if requested, display the shortest path. 
 
+## Project Image
+<img width="592" alt="Screenshot 2024-05-16 at 2 58 22 PM" src="https://github.com/elmahsieh/StreetMap/assets/141378765/94108327-b6ba-40dd-892d-1d1352edf0cc">
+
 ## Command Lines
 Make sure the file is in the correct directory before executing the following commands. 
 
 javac *.java
 
 java StreetMap map.txt [--show] [--directions startIntersection endIntersection]
+
+## Internet Resources
+Dikstra’s Algorithm - Geeks for Geeks 
+
+Source: 
+
+https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
+
+Haversine Formula - Geeks for Geeks 
+
+Source:
+
+https://www.geeksforgeeks.org/haversine-formula-to-find-distance-between-two-points-on-a-sphere/
